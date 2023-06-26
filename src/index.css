@@ -1,13 +1,151 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    background-color: #2d3643;
+    height: 100vh;
+    margin: 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
+/* infos component layout*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #151414;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.anto {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.user > h1 {
+    padding: 0;
+    font-size: 30px;
+}
+.user > span {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: rgb(239, 160, 63);
+    font-size: 18px;
+}
+
+.user > p {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.contact--btn {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.btn--item-1 {
+    display: flex;
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background: var(--white, #fff);
+    /* shadow/sm */
+}
+
+.btn--item-2 {
+    display: flex;
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background: var(--white, rgb(34, 148, 200));
+    color: white;
+    /* shadow/sm */
+}
+
+.email--icon {
+    margin-right: 5px;
+}
+
+/* About an Interests component layout */
+
+.about--section {
+    width: 314px;
+    padding-top: 20px;
+    background-color: #151414;
+}
+
+.about--section span {
+    margin-left: 33px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F5F5F5;
+}
+
+.about--section p {
+    margin-left: 33px;
+    margin-right: 20px;
+    font-size: 10.24px;
+    color: #DCDCDC;
+}
+
+.interests--section {
+    width: 314px;
+    background-color: #151414;
+    padding-bottom: 20px;
+}
+
+.interests--section span {
+    margin-left: 33px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F5F5F5;
+}
+
+.interests--section p {
+    margin-left: 33px;
+    margin-right: 20px;
+    font-size: 10.24px;
+    color: #DCDCDC;
+}
+
+/* Footer componemt layout */
+
+.icon--container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 314px;
+    height: 60px;
+    column-gap: 10px;
+    background-color: #000000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
