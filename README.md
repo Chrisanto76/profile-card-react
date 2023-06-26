@@ -1,7 +1,7 @@
 # Profile card made with react
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+And build under docker
 ## Available Scripts
 
 In the project directory, you can run:
